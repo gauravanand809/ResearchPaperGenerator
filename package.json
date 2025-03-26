@@ -7,6 +7,8 @@
   "scripts": {
     "start": "node index.js",
     "generate": "node index.js",
+    "generate:tex": "node index.js --tex",
+    "compile:tex": "node index.js --tex --compile-tex",
     "lint": "eslint *.js",
     "test": "node --test"
   },
